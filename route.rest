@@ -1,0 +1,26 @@
+GET http://localhost:3000/users
+###
+GET http://localhost:3000/users/60fd50901ad9160edcd007b2
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name":"Test",
+    "subs":"Chanel2"
+
+}
+
+###
+DELETE http://localhost:3000/users/60fd48b3d700692570d6beaa
+
+###
+PATCH http://localhost:3000/users/60fd50901ad9160edcd007b2
+Content-Type: :application/json
+
+{
+    "name":"Cem",
+    
+}
